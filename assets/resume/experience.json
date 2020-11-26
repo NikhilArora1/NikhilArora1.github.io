@@ -1,0 +1,75 @@
+[
+    {
+        "title": "Assistant Director - Senior Software Engineer",
+        "company": "Moody's Analytics",
+        "dates": "March 2019 - Present",
+        "location": "San Francisco, CA",
+        "responsibilities": [
+            {
+                "info": "Involved in designing the user experience interface, UI requirements, and converting the findings into UI designs"
+            },
+            {
+                "info": "Responsible for building the front-end for multiple applications using Angular 6/8 and Material Design principles",
+                "subInfo": [
+                    {
+                        "info": "Reporting Studio: Product to help a bank generate regulatory reports using out-of-the-box capabilities"
+                    },
+                    {
+                        "info": "BondScore China: Bilingual product to help financial institutions assess bond issuers and make better investment decisions"
+                    },
+                    {
+                        "info": "Scorecard Suite: Product built with a JSON template driven UI to help provide different models and scorecard results"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Assistant Director - Product Manager",
+        "company": "Moody's Analytics",
+        "dates": "March 2016 - March 2019",
+        "location": "San Francisco, CA",
+        "responsibilities": [
+            {
+                "info": "Led the implementation of several products including",
+                "subInfo": [
+                    {
+                        "info": "Galileo: Suite of front-end components used by all Moody's Analytics products to ensure a consistent user experience"
+                    },
+                    {
+                        "info": "Regulatory Cloud: Migrated Moody's Analytics AnaCredit product from on-premise to AWS to provide high availability of resources and reduce cost for our customers"
+                    }
+                ]
+            },
+            {
+                "info": "Gathered requirements by communication with all consumers to collect their needs, analytical vision to understand them and technical skills to determine the feasibility"
+            },
+            {
+                "info": "Created, prioritized and planned user stories based on their business value and return on investment"
+            },
+            {
+                "info": "Created high fidelity interactive mockups as an MVP in Axure using material design principles to be presented to upper management"
+            },
+            {
+                "info": "Assisted the front-end development team build the application using Angular 6"
+            }
+        ]
+    },
+    {
+        "title": "Associate Product Manager Intern",
+        "company": "Blue Shield of California",
+        "dates": "June 2015 - August 2015",
+        "location": "San Francisco, CA",
+        "responsibilities": [
+            {
+                "info": "Worked closely with developers to convert Adobe Illustrator layouts to a prototype using HTML, CSS, JavaScript, and Angular.js"
+            },
+            {
+                "info": "Acted as a product manager for assessment of current infrastructure and created a three-year strategy and roadmap"
+            },
+            {
+                "info": "Collaboratively worked with cross-functional team to manage the product lifecycle"
+            }
+        ]
+    }
+]
