@@ -1,1 +1,98 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto Regular", "Helvetica Neue", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.margin-tb {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+.margin-r {
+    margin-right: 8px !important;
+}
+
+.margin-r-2x {
+    margin-right: 16px;
+}
+
+.margin-2x {
+    margin: 16px;
+}
+
+.margin-lr-2x {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.margin-tb-2x {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.margin-t-4x {
+    margin-top: 32px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-align {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-size: 20px !important;
+    color: #333333;
+}
+
+.sub-heading {
+    font-weight: bold !important;
+}
+
+.padding {
+    padding: 16px;
+}
+
+.padding-lr-2x {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.padding-r {
+    padding-right: 8px;
+}
+
+.fit-content {
+    width: 100%;
+    height: 100%;
+}
+
+// .contact-button {
+//     border: 1px solid #333333 !important;
+
+//     &:hover {
+//         background: #333333;
+//         color: white;
+//     }
+// }
+
+.full-width {
+    width: 100%;
+}

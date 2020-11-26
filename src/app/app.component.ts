@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'website';
+
+  constructor(private router: Router) {}
+
+  home(): void {
+    this.router.navigate(['']);
+  }
+
+  resume(): void {
+    this.router.navigate(['/resume']);
+  }
+
+  navigateTo(page): void {
+    this.router.navigate([page]);
+  }
+
+  mail(): void {
+    location.href = 'mailto:nikarora@live.com';
+  }
 }

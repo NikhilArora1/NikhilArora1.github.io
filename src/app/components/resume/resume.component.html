@@ -1,0 +1,81 @@
+<div class="container">
+    <h2>Nikhil Arora</h2>
+    <h3><i>Senior Software Engineer</i></h3>
+    <p>
+        Creative and self-starting engineer with experience as a product manager and UX designer who understands the
+        pain points of users and aims to build products that solve real problems and satisfy the needs of the customers.
+    </p>
+    <div class="center-align"><img class="padding-r" src="assets/resume/svg/pin.svg" />San Francisco, CA</div>
+    <div class="personal-info">
+        <div class="center-align sm-margin-b"><img class="padding-r" src="assets/resume/svg/email.svg" />nikarora@live.com</div>
+        <a class="center-align" href="http://linkedin.com/in/nikaroracmu/"><img class="padding-r"
+                src="assets/linkedin.svg" />http://linkedin.com/in/nikaroracmu/</a>
+    </div>
+    <h3 class="heading">Skills</h3>
+    <h4 class="sub-heading">Tech Stack</h4>
+    <div class="skills">
+        <div class="box" *ngFor="let stack of techStack">
+            <img class="padding-r" src="assets/resume/svg/{{stack}}.svg" />{{stack}}
+        </div>
+    </div>
+    <h4 class="sub-heading">Tools and Platforms</h4>
+    <div class="skills">
+        <div class="box" *ngFor="let tool of tools">
+            <img class="padding-r" src="assets/resume/svg/{{tool}}.svg" />{{tool}}
+        </div>
+    </div>
+    
+    <h3 class="heading">Work Experience</h3>
+    <div class="work-experience" *ngFor="let exp of experience">
+        <span class="work-experience-icon"><img src="assets/resume/svg/building.svg" /></span>
+        <div class="company-info">
+            <div class="title">{{exp.title}}</div>
+            <div class="company">{{exp.company}}</div>
+            <div class="other-info">{{exp.dates}}</div>
+            <div class="other-info">{{exp.location}}</div>
+        </div>
+        <div class="responsibilities">
+            <ul class="margin-none">
+                <li *ngFor="let responsibility of exp.responsibilities">{{responsibility.info}}
+                    <ul class="margin-none" *ngIf="responsibility.subInfo">
+                        <li *ngFor="let subInfo of responsibility.subInfo">{{subInfo.info}}</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- smaller screen -->
+    <div class="work-experience-sm margin-tb-2x" *ngFor="let exp of experience">
+        <div class="work-experience-sm-header">
+            <span class="work-experience-sm-icon"><img src="assets/resume/svg/building.svg" /></span>
+            <div>
+                <div class="title">{{exp.title}}</div>
+                <div class="company">{{exp.company}}</div>
+                <div class="other-info">{{exp.dates}}</div>
+                <div class="other-info">{{exp.location}}</div>
+            </div>
+        </div>
+        <mat-divider class="margin-tb"></mat-divider>
+        <div>
+            <ul class="margin-none">
+                <li *ngFor="let responsibility of exp.responsibilities">{{responsibility.info}}
+                    <ul class="margin-none" *ngIf="responsibility.subInfo">
+                        <li *ngFor="let subInfo of responsibility.subInfo">{{subInfo.info}}</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <h3 class="heading">Education</h3>
+    <div class="education">
+        <div class="education-info" *ngFor="let ed of education">
+            <div class="education-icon"><img src="assets/resume/svg/mortarboard.svg" /></div>
+            <div>
+                <div class="other-info">{{ed.date}}</div>
+                <div class="title">{{ed.university}}</div>
+                <div class="company">{{ed.degree}}</div>
+            </div>
+        </div>
+    </div>
+</div>
