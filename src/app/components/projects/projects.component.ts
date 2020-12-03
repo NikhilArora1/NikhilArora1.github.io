@@ -6,13 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  projects = [{
-    name: 'Job Postings',
-    description: 'A filterable job postings landing page',
-    photo: 'job-postings.png',
-    url: 'http://www.nikhil-arora.com/Job-Postings/',
-    github: 'https://github.com/NikhilArora1/Job-Postings'
-  }];
+  projects = [
+    {
+      name: 'Job Listings',
+      description: 'Job Listings using GitHub Jobs API',
+      photo: 'job-listings.png',
+      url: 'https://nikhil-arora.com/job-listings/',
+      github: 'https://github.com/NikhilArora1/job-listings'
+    }
+  ];
 
   constructor() { }
 
