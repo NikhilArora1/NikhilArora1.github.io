@@ -39,6 +39,8 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+github-pages
+CNAME
 
 # System Files
 .DS_Store
