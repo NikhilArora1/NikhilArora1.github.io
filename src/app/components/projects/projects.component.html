@@ -1,24 +1,27 @@
 <div class="container">
     <div class="projects-heading margin-b-2x">
         <h2>My Recent Work</h2>
-        <p>Here are a few projects I've worked on recently. Want to work together? <a href="mailto:nikarora@live.com">Email Me.</a>
+        <p>Here are a few projects I've worked on recently. Want to work together? <a
+                href="mailto:nikarora@live.com">Email Me.</a>
         </p>
     </div>
     <div class="projects-container margin-tb-2x">
         <mat-card class="projects-card" (click)="navigateTo(project.url)" *ngFor="let project of projects">
             <img mat-card-image src="assets/projects/{{project.photo}}">
-            <mat-card-content>
+            <mat-card-content class="projects-card-content">
                 <div class="projects-card-heading">{{project.name}}</div>
                 <div>{{project.description}}</div>
             </mat-card-content>
-            <mat-divider></mat-divider>
-            <mat-card-actions class="projects-card-actions" align="center">
-                <button mat-icon-button (click)="navigateTo(project.url); $event.stopPropagation()">
-                    <mat-icon>launch</mat-icon>
-                </button>
-                <button mat-icon-button (click)="navigateTo(project.github); $event.stopPropagation()"><img
-                        src="assets/resume/svg/GitHub.svg" /></button>
-            </mat-card-actions>
+            <div>
+                <mat-divider></mat-divider>
+                <mat-card-actions class="projects-card-actions" align="center">
+                    <button mat-icon-button (click)="navigateTo(project.url); $event.stopPropagation()">
+                        <mat-icon>launch</mat-icon>
+                    </button>
+                    <button mat-icon-button (click)="navigateTo(project.github); $event.stopPropagation()"><img
+                            src="assets/resume/svg/GitHub.svg" /></button>
+                </mat-card-actions>
+            </div>
         </mat-card>
     </div>
 </div>

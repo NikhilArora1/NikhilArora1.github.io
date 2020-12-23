@@ -13,6 +13,13 @@ export class ProjectsComponent implements OnInit {
       photo: 'job-listings.png',
       url: 'https://nikhil-arora.com/job-listings/',
       github: 'https://github.com/NikhilArora1/job-listings'
+    },
+    {
+      name: 'Jammming',
+      description: 'Allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.',
+      photo: 'jammming.png',
+      url: 'https://nikhil-arora.com/jammming/',
+      github: 'https://github.com/NikhilArora1/jammming'
     }
   ];
 

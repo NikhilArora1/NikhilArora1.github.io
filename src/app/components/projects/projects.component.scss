@@ -2,17 +2,29 @@
     &-container {
         display: flex;
     }
+
     &-heading {
         text-align: center;
     }
+
     &-card {
         max-width: 350px;
         margin-right: 16px;
         margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         cursor: pointer;
+
         &-heading {
             font-size: 20px;
             margin-bottom: 8px;
+        }
+
+        &-actions {
+            margin-bottom: -8px;
+            margin-top: 8px;
+            padding: 0;
         }
     }
 }
@@ -23,6 +35,7 @@
             display: flex;
             flex-wrap: wrap;
         }
+
         &-card {
             max-width: 42%;
         }
@@ -34,6 +47,7 @@
         &-container {
             flex-direction: column;
         }
+
         &-card {
             max-width: 100%;
             margin-bottom: 16px;
