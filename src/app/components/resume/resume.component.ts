@@ -16,7 +16,7 @@ export class ResumeComponent implements OnInit {
   ngOnInit(): void {
     this.experience = require('src/assets/resume/experience.json');
     this.education = require('src/assets/resume/education.json');
-    this.techStack = ['Angular', 'TypeScript', 'JavaScript', 'HTML', 'CSS'];
+    this.techStack = ['Angular', 'React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'];
     this.tools = ['Jira', 'CircleCi', 'GitHub', ' ', 'Proto.io', 'Balsamiq'];
   }
 
