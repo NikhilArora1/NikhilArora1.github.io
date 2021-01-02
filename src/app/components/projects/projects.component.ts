@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare let gtag: Function;
 
 @Component({
   selector: 'app-projects',
@@ -39,6 +40,10 @@ export class ProjectsComponent implements OnInit {
   }
 
   navigateTo(url): void {
+    gtag('event', 'navigation', {
+      event_category: 'engagement',
+      event_label: `navigate to ${url}`
+    });
     window.open(url, '_blank');
   }
 
