@@ -14,6 +14,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatCardModule,
     MatIconModule,
     MatDividerModule,
-    MatMenuModule
+    MatMenuModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

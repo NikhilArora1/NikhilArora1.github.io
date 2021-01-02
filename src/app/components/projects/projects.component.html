@@ -8,6 +8,9 @@
     <div class="projects-container margin-tb-2x">
         <mat-card class="projects-card" (click)="navigateTo(project.url)" *ngFor="let project of projects">
             <img mat-card-image src="assets/projects/{{project.photo}}">
+            <mat-chip-list class="projects-card-chips">
+                <mat-chip class="projects-card-chip" *ngFor="let tech of project.stack">{{tech}}</mat-chip>
+              </mat-chip-list>
             <mat-card-content class="projects-card-content">
                 <div class="projects-card-heading">{{project.name}}</div>
                 <div>{{project.description}}</div>

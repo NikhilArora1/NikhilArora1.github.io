@@ -26,6 +26,17 @@
             margin-top: 8px;
             padding: 0;
         }
+
+        &-chips ::ng-deep .mat-chip-list-wrapper {
+            position: absolute;
+            right: 0;
+            margin-right: 8px;
+        }
+
+        &-chip {
+            min-height: 24px;
+            padding: 8px;
+        }
     }
 }
 
