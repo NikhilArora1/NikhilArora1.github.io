@@ -31,6 +31,14 @@ export class ProjectsComponent implements OnInit {
       stack: ['Redux', 'React'],
       url: 'http://nikhil-arora.com/todo-app/',
       github: 'https://github.com/NikhilArora1/todo-app'
+    },
+    {
+      name: 'IP Address Tracker',
+      description: 'Let users see their own IP Address on the map on the initial page load and search for any IP addresses or domains and see key information.',
+      photo: 'ip-address-tracker.png',
+      stack: ['Redux', 'React'],
+      url: 'http://nikhil-arora.com/ip-address-tracker',
+      github: 'https://github.com/NikhilArora1/ip-address-tracker'
     }
   ];
 
