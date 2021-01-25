@@ -1,12 +1,12 @@
 [
     {
-        "date": "Apr 2010 - Apr 2014",
-        "university": "Amity University",
-        "degree": "B.S. Computer Science"
-    },
-    {
         "date": "Jul 2014 - Dec 2015",
         "university": "Carnegie Mellon University",
         "degree": "M.S. Software Management"
+    },
+    {
+        "date": "Apr 2010 - Apr 2014",
+        "university": "Amity University",
+        "degree": "B.S. Computer Science"
     }
 ]

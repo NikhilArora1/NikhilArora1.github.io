@@ -1,5 +1,10 @@
 <div class="container">
-    <h2>Nikhil Arora</h2>
+    <div class="title">
+        <h2>Nikhil Arora</h2>
+        <a class="pdf-icon" download href="assets/resume/Nikhil-Arora-Resume.pdf">
+            <mat-icon>picture_as_pdf</mat-icon>
+        </a>
+    </div>
     <h3><i>Senior Software Engineer</i></h3>
     <p>
         Creative and self-starting engineer with experience as a product manager and UX designer who understands the
@@ -7,7 +12,8 @@
     </p>
     <div class="center-align"><img class="padding-r" src="assets/resume/svg/pin.svg" />San Francisco, CA</div>
     <div class="personal-info">
-        <div class="center-align sm-margin-b"><img class="padding-r" src="assets/resume/svg/email.svg" />nikarora@live.com</div>
+        <div class="center-align sm-margin-b"><img class="padding-r"
+                src="assets/resume/svg/email.svg" />nikarora@live.com</div>
         <a class="center-align" href="http://linkedin.com/in/nikaroracmu/"><img class="padding-r"
                 src="assets/linkedin.svg" />http://linkedin.com/in/nikaroracmu/</a>
     </div>
@@ -24,7 +30,7 @@
             <img class="padding-r" src="assets/resume/svg/{{tool}}.svg" />{{tool}}
         </div>
     </div>
-    
+
     <h3 class="heading">Work Experience</h3>
     <div class="work-experience" *ngFor="let exp of experience">
         <span class="work-experience-icon"><img src="assets/resume/svg/building.svg" /></span>
@@ -66,10 +72,10 @@
             </ul>
         </div>
     </div>
-    
+
     <h3 class="heading">Education</h3>
     <div class="education">
-        <div class="education-info" *ngFor="let ed of education">
+        <div class="title" *ngFor="let ed of education">
             <div class="education-icon"><img src="assets/resume/svg/mortarboard.svg" /></div>
             <div>
                 <div class="other-info">{{ed.date}}</div>
